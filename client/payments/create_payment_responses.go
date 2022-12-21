@@ -15952,6 +15952,9 @@ type CreatePaymentParamsBodyConsumerAuthenticationInformation struct {
 	//
 	// Max Length: 40
 	Xid string `json:"xid,omitempty"`
+
+	// Max Length: 225
+	EcommerceIndicator string `json:"ecommerceIndicator,omitempty"`
 }
 
 // Validate validates this create payment params body consumer authentication information
